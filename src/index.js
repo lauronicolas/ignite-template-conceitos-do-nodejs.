@@ -11,6 +11,7 @@ app.use(express.json());
 const users = [];
 
 
+
 function checksExistsUserAccount(request, response, next) {
   //Recebe o username pelo header params
   const { username } = request.headers;
